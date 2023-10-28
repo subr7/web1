@@ -1,0 +1,43 @@
+h2{
+    color: rgb(188, 234, 4);
+    font-style:italic;
+    text-align: center;
+    background-image: url(./Images/new3.jpg);
+}
+p{
+    color:green;
+}
+button{
+    color: red;
+}
+body{
+    background-color: rgb(237, 237, 72);
+    
+}
+.waviy {
+    margin-top: 80px;
+    font-weight:bolder;
+    text-align: center;
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+  }
+  .waviy span {
+    margin-left: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #117cf5;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
